@@ -1,13 +1,20 @@
 <keymap version="1" name="macOS copy" parent="Mac OS X 10.5+">
+  <action id="ActivateFavoritesToolWindow" />
   <action id="ActivateFindToolWindow" />
   <action id="ActivateTerminalToolWindow">
     <keyboard-shortcut first-keystroke="alt f12" />
+    <keyboard-shortcut first-keystroke="meta 2" />
+  </action>
+  <action id="ActivateVersionControlToolWindow">
+    <keyboard-shortcut first-keystroke="meta 9" />
     <keyboard-shortcut first-keystroke="meta 3" />
   </action>
   <action id="CloseProject">
     <keyboard-shortcut first-keystroke="shift alt w" />
   </action>
+  <action id="DuplicatesForm.SendToRight" />
   <action id="FileChooser.GotoModule" />
+  <action id="FileChooser.GotoProject" />
   <action id="ManageRecentProjects">
     <keyboard-shortcut first-keystroke="shift alt o" />
   </action>
